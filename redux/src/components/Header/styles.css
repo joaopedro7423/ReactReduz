@@ -4,13 +4,14 @@
     align-items: center;
     margin: 15px 0;
     padding: 10px 10px;
- 
+    background-color: darkgray;
 }
 
 .logo{
     max-width: 110px;
     max-height: 110px;
     background-color: white;
+    border-radius: 36%;
 }
 
 .reserva{
