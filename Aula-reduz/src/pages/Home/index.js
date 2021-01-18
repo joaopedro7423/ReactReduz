@@ -6,6 +6,8 @@ import {addReserveRequest} from '../../store/modules/reserve/actions';
 
 import { useDispatch} from 'react-redux';
 
+
+
 import './style.css';
 
 export default function Home() {
@@ -24,7 +26,7 @@ export default function Home() {
   function handleAdd(id) {
     
     dispatch(addReserveRequest(id));
-    
+   
   }
 
   return (
